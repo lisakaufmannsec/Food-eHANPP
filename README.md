@@ -5,7 +5,7 @@ READ ME:
 
 This repository contains data and code for the calculation of urban and rural Food-eHANPP between 1990 and 2020 for 191 countries. The methods and results are presented in the manuscript “Income level and urbanization shape food-related pressures on ecosystems” (currently under review). The underlying product-level HANPP dataset is described in a ‘Data in Brief’ (https://doi.org/10.1016/j.dib.2023.109725). Updates to the dataset are described in the above-mentioned manuscript and the code and the resulting dataset available on Zenodo (https://zenodo.org/records/17467782). The provided code in this repository explicitly refers to the differentiation between urban and rural food supply and Food-eHANPP, which is the main research presented in the manuscript. The programming language is Python (3.12.9). Required packages are dask, pandas, numpy and matplotlib. 
 
-For the reproduction of results, the Global Dietary Database (GDD; Zip-File) must be downloaded (requires a login on https://globaldietarydatabase.org/); the country-level estimates extracted and the relevant data selected by running the three “GDD_data_collection” skripts. The uploaded code uses randomly generated data of urban and rural dietary intake that replaces the actual GGD urban and rural dietary intake data. 
+For the reproduction of results, the Global Dietary Database (GDD; Zip-File) must be downloaded (requires a login on https://globaldietarydatabase.org/); the country-level estimates extracted and the relevant data selected by running the three “GDD_data_collection” python skripts. The uploaded code uses randomly generated data of urban and rural dietary intake that replaces the actual GGD urban and rural dietary intake data. 
 
 Instructions: 
 

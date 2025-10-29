@@ -34,3 +34,5 @@ While the product-level HANPP dataset (Zenodo) and food supply (Github) have to 
 
 Figures will be saved in the same path (folder) as where the data downloads are located. 
 
+The expected time run time is: XX
+

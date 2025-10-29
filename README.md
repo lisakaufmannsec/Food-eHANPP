@@ -8,12 +8,12 @@ For the reproduction of results, the Global Dietary Database (GDD; Zip-File) mus
 
 Instructions: 
 #1 Download Data 
-•	Product-level HANPP dataset including end-use: embodied_HANPP_all_uses_incl_ap_all_cl_gl_resid_infra_by_animal_products_zenodo.csv (https://zenodo.org/records/17467782/files/embodied_HANPP_all_uses_incl_ap_all_cl_gl_resid_infra_by_animal_products_zenodo.csv?download=1)
-o	The updated code is also provided on Zenodo: https://zenodo.org/records/17467782
+a) Product-level HANPP dataset including end-use: embodied_HANPP_all_uses_incl_ap_all_cl_gl_resid_infra_by_animal_products_zenodo.csv (https://zenodo.org/records/17467782/files/embodied_HANPP_all_uses_incl_ap_all_cl_gl_resid_infra_by_animal_products_zenodo.csv?download=1)
+  The updated code is also provided on Zenodo: https://zenodo.org/records/17467782
 
-•	Food supply data: food_supply.csv: extracted data from the ‘Metabalances’
-o	Stored as Zipfile on Github (https://github.com/lisakaufmannsec/Food-eHANPP/blob/main/food_supply.zip)
-o	Reconstruction of FAOSTAT food supply balances aligning old (prior to 2010) and old (2010 and later) methodology. The code for the construction of ‘Metabalances’ is part of the product-level HANPP data incl. end-uses provided on Zenodo: https://zenodo.org/records/17467782
+b) Food supply data: food_supply.csv: extracted data from the ‘Metabalances’
+    Stored as Zipfile on Github (https://github.com/lisakaufmannsec/Food-eHANPP/blob/main/food_supply.zip)
+    Reconstruction of FAOSTAT food supply balances aligning old (prior to 2010) and old (2010 and later) methodology. The code for the construction of ‘Metabalances’ is part of the product-level HANPP data incl. end-uses           provided on Zenodo: https://zenodo.org/records/17467782
 
 #2 Download and run the code that performs calculations and plots figures
 This is the main calculation code. Inputs are:

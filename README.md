@@ -7,6 +7,7 @@ This repository contains data and code for the calculation of urban and rural Fo
 For the reproduction of results, the Global Dietary Database (GDD; Zip-File) must be downloaded (requires a login on https://globaldietarydatabase.org/); the country-level estimates extracted and the relevant data selected by running the three “GDD_data_collection” skripts. The uploaded code uses randomly generated data of urban and rural dietary intake that replaces the actual GGD urban and rural dietary intake data. 
 
 Instructions: 
+
 #1 Download Data 
 
 a) Product-level HANPP dataset including end-use: embodied_HANPP_all_uses_incl_ap_all_cl_gl_resid_infra_by_animal_products_zenodo.csv (https://zenodo.org/records/17467782/files/embodied_HANPP_all_uses_incl_ap_all_cl_gl_resid_infra_by_animal_products_zenodo.csv?download=1)
@@ -21,8 +22,11 @@ b) Food supply data: food_supply.csv: extracted data from the ‘Metabalances’
 This is the main calculation code. Inputs are:
 
 •	Product-level HANPP incl. end-use dataset (see above)
+
 •	Food supply (see above)
-•	Three random GDD data collections representing the median (=here: mean), lower uncertainty interval (2.5°) for mean intake and the upper uncertainty interval (97.5°) for mean intake (replacing original data)
+
+•	Three random GDD data collections representing the median (=here: mean), lower uncertainty interval (2.5°) for mean intake and the upper uncertainty interval (97.5°) for mean intake (replacing original data
+
 •	Five sheets stored in look_up.xlsx containing country groups, food groups, urban and total population, dry matter content and calorie content
 
 While the product-level HANPP dataset (Zenodo) and food supply (Github) have to be downloaded and the path changed accordingly, the remaining inputs are linked to Github and do not require any changes in the code. 

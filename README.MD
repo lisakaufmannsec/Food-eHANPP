@@ -44,7 +44,7 @@ This is the main calculation code. Inputs are:
 
 •	Five sheets stored in look_up.xlsx containing country groups, food groups, urban and total population, dry matter content and calorie content; no action required
 
-While the product-level HANPP dataset (Zenodo) and food supply (Github) have to be downloaded, the remaining inputs are linked to Github and do not require any changes in the code. Make sure the working directory is aligned with the folder where the data downloads are located.
+While the product-level eHANPP dataset (Zenodo) and food supply (Github) have to be downloaded, the remaining inputs are linked to Github and do not require any changes in the code. Make sure the working directory is aligned with the folder where the data downloads are located.
 
 Figures will be saved in the same path working directory (folder) as where the data downloads are located. Please keep in mind that when using randomly generated urban/rural differences, result figures will deviate from the article figures.
 

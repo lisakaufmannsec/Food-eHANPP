@@ -32,7 +32,7 @@ This is the main calculation code. Inputs are:
 
 While the product-level HANPP dataset (Zenodo) and food supply (Github) have to be downloaded and the path changed accordingly, the remaining inputs are linked to Github and do not require any changes in the code. 
 
-Figures will be saved in the same path (folder) as where the data downloads are located. 
+Figures will be saved in the same path (folder) as where the data downloads are located. Please keep in mind that when using randomly generated urban/rural differences, result figures will deviate from the article figures.
 
 The expected time run time is: XX
 

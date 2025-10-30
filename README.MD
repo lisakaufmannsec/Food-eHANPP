@@ -26,7 +26,7 @@ a) Product-level eHANPP dataset including end-use: embodied_HANPP_all_uses_incl_
   The updated code is also provided on Zenodo: https://zenodo.org/records/17467782
 
 b) Food supply data: food_supply.csv: extracted data from the ‘Metabalances’ --> Stored as Zipfile on Github (https://github.com/lisakaufmannsec/Food-eHANPP/blob/main/food_supply.zip)
-= Reconstruction of FAOSTAT food supply balances aligning old (prior to 2010) and old (2010 and later) methodology. The code for the construction of ‘Metabalances’ is part of the product-level HANPP data incl. end-uses provided on Zenodo: https://zenodo.org/records/17467782
+= Reconstruction of FAOSTAT food supply balances aligning old (prior to 2010) and new (2010 and later) methodology. The code for the construction of ‘Metabalances’ is part of the product-level HANPP data incl. end-uses provided on Zenodo: https://zenodo.org/records/17467782
 
 ### 3. Run the code that performs calculations and plots figures
 

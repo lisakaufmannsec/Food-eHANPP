@@ -14,9 +14,9 @@ Instructions:
 a) Product-level HANPP dataset including end-use: embodied_HANPP_all_uses_incl_ap_all_cl_gl_resid_infra_by_animal_products_zenodo.csv (https://zenodo.org/records/17467782/files/embodied_HANPP_all_uses_incl_ap_all_cl_gl_resid_infra_by_animal_products_zenodo.csv?download=1)
   The updated code is also provided on Zenodo: https://zenodo.org/records/17467782
 
-b) Food supply data: food_supply.csv: extracted data from the ‘Metabalances’
-    Stored as Zipfile on Github (https://github.com/lisakaufmannsec/Food-eHANPP/blob/main/food_supply.zip)
-    Reconstruction of FAOSTAT food supply balances aligning old (prior to 2010) and old (2010 and later) methodology. The code for the construction of ‘Metabalances’ is part of the product-level HANPP data incl. end-uses           provided on Zenodo: https://zenodo.org/records/17467782
+b) Food supply data: food_supply.csv: extracted data from the ‘Metabalances’ --> Stored as Zipfile on Github (https://github.com/lisakaufmannsec/Food-eHANPP/blob/main/food_supply.zip)
+= Reconstruction of FAOSTAT food supply balances aligning old (prior to 2010) and old (2010 and later) methodology. The code for the construction of ‘Metabalances’ is part of the product-level HANPP data incl. end-uses provided on Zenodo: https://zenodo.org/records/17467782
+
 
 #2 Download and run the code that performs calculations and plots figures
 
@@ -26,9 +26,10 @@ This is the main calculation code. Inputs are:
 
 •	Food supply (see above)
 
-•	Three random GDD data collections representing the median (=here: mean), lower uncertainty interval (2.5°) for mean intake and the upper uncertainty interval (97.5°) for mean intake (replacing original data
+•	Three random GDD data collections representing the median (=here: mean), lower uncertainty interval (2.5°) for mean intake and the upper uncertainty interval (97.5°) for mean intake (replacing original data); no action required
 
-•	Five sheets stored in look_up.xlsx containing country groups, food groups, urban and total population, dry matter content and calorie content
+•	Five sheets stored in look_up.xlsx containing country groups, food groups, urban and total population, dry matter content and calorie content; no action required
+
 
 While the product-level HANPP dataset (Zenodo) and food supply (Github) have to be downloaded and the path changed accordingly, the remaining inputs are linked to Github and do not require any changes in the code. 
 
